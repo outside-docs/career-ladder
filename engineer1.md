@@ -28,7 +28,7 @@ I own work within the scope of my team with specific guidance from my manager an
 High level understanding of web architecture, databases and operating systems
 
 ## Example activity breakdown
-70% - Contribute Solutions with Code
-10% - Collaboration, Code Reviews, etc
-10% - Logistics such as planning, estimation, etc
-10% - Learn about and maintain best practices
+- 70% - Contribute Solutions with Code
+- 10% - Collaboration, Code Reviews, etc
+- 10% - Logistics such as planning, estimation, etc
+- 10% - Learn about and maintain best practices
