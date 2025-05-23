@@ -23,13 +23,13 @@ I own work primarily within the scope of my team with high level guidance from m
 - Debugs complex issues within their primary system and straightforward issues in adjacent systems 
 - Identifies errors in their primary system and escalate to the team as needed
 
-## Experience
-- Contributed to multiple production codebases
-- Consistently deployed testing and good documentation standards
-- Displayed root cause analysis and coordination
-
 ## Example activity breakdown
 - 70% - Contribute Solutions with Code
 - 10% - Collaboration, Code Reviews, etc
 - 10% - Logistics such as planning, estimation, etc
 - 10% - Maintain best practices and resolve issues"
+
+## Experience
+- Contributed to multiple production codebases
+- Consistently deployed testing and good documentation standards
+- Displayed root cause analysis and coordination

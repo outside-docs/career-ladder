@@ -26,13 +26,13 @@ I own work primarily with my direct team and cross-functional partners while dri
 - Debugs complex issues across multiple systems with help from SMEs as needed
 - Proactively identifies issues using our error and application monitoring tools
 	
-## Experience
-- Refactored or scaled multiple production codebases
-- Fostered adoption of best practices, testing frameworks and/or documentation
-- T-shaped expertise in relevant and adjacent technologies
-
 ## Example activity breakdown
 - 70% - Design and Contribute Solutions with Code
 - 10% - Collaboration, Code Reviews, etc
 - 10% - Logistics such as planning, estimation, etc
 - 10% - Maintain best practices and resolve issues
+
+## Experience
+- Refactored or scaled multiple production codebases
+- Fostered adoption of best practices, testing frameworks and/or documentation
+- T-shaped expertise in relevant and adjacent technologies

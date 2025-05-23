@@ -27,13 +27,13 @@ I increasingly optimize beyond just my team by driving cross-team or cross-disci
 - Strategizes the full cycle of monitoring from alerting, metrics, monitors, and tooling for at least 1 system
 - Improves the culture of debugging by utilizing debugging as a growth mechanism for less experienced developers
 
-## Experience
-- Lead, mentored or facilitated teams
-- Greenfield, startup or similar production codebase design
-- Experience bringing new technology into production
-
 ## Example activity breakdown
 - 60% - Facilitate, Create and Design Solutions with Code
 - 20% - Mentoring, Code Reviews, etc
 - 10% - Logistics such as planning, estimation, etc
 - 10% - Facilitate best practices and resolve issues
+
+## Experience
+- Lead, mentored or facilitated teams
+- Greenfield, startup or similar production codebase design
+- Experience bringing new technology into production
