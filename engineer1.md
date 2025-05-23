@@ -23,12 +23,12 @@ I own work within the scope of my team with specific guidance from my manager an
 - Writes bug reports that are clear, concise, with reproducible steps
 - Monitors their team's alert channels and knows where in the code that alert fired from
 - Tunes alerts to reduce noise at the direction of the larger team
-	
-## Experience
-High level understanding of web architecture, databases and operating systems
 
 ## Example activity breakdown
 - 70% - Contribute Solutions with Code
 - 10% - Collaboration, Code Reviews, etc
 - 10% - Logistics such as planning, estimation, etc
 - 10% - Learn about and maintain best practices
+
+## Experience
+- High level understanding of web architecture, databases and operating systems
