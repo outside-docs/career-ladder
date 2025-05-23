@@ -6,7 +6,7 @@ I own work within the scope of my team with specific guidance from my manager an
 - Researches issues independently but also knows when to ask for help when after becoming blocked, and appropriately conveying the issue and research done
 
 ## Planning, Prioritization and Architecture
-- Reads and comments on technical solution planning artifacts (ie. RFCs, Miro)
+- Reads and comments on technical solution planning artifacts (ie. RFCs, Design Diagrams)
 - Works according to priority of their tasks
 - Designs functions, avoiding duplication across codebases and interface-breaking changes based on an understanding of the overall architecture
 	

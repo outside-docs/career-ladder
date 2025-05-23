@@ -6,7 +6,7 @@ I own work primarily within the scope of my team with high level guidance from m
 - Knows how to navigate within your product's business unit to help solve or track down issues
 
 ## Planning, Prioritization and Architecture
-- Co-authors technical solution planning artifacts (ie. RFCs, Miro)
+- Co-authors technical solution planning artifacts (ie. RFCs, Design Diagrams)
 - Provides reliable estimates of individual tickets
 - Understands the priority of their tasks and acts accordingly
 - Design solutions (of x complexity) that are aligned with the overall architecture

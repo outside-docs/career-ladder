@@ -8,7 +8,7 @@ I increasingly optimize beyond just my team by driving cross-team or cross-disci
 - Communicates technical concepts to non-technical audiences
 
 ## Planning, Prioritization and Architecture
-- Authors technical solution planning artifacts (ie. RFCs, Miro)
+- Authors technical solution planning artifacts (ie. RFCs, Design Diagrams)
 - Provides reliable estimates based off of tech debt, project priorities
 - Understands competing priorities and acts accordingly
 - Design solutions (of z complexity) that are aligned with the overall architecture
