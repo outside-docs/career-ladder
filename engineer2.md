@@ -1,5 +1,5 @@
 ## Scope
-I own work primarily within the scope of my team with high level guidance from my manager and engineering lead.
+I own work primarily within the scope of my team with high level guidance from my manager and engineering lead
 
 ## Collaboration and Communication
 - Communicates effectively with immediate and dependent teams and stakeholders
