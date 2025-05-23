@@ -1,6 +1,9 @@
+## Scope
+I own work within the scope of my team with specific guidance from my manager and engineering lead
+
 ## Collaboration and Communication
 - Communicates effectively with immediate team
-- Researches issues independently but also knows when to ask for help when after becoming blocked, and appropriately conveying the issue and research done.
+- Researches issues independently but also knows when to ask for help when after becoming blocked, and appropriately conveying the issue and research done
 
 ## Planning, Prioritization and Architecture
 - Reads and comments on technical solution planning artifacts (ie. RFCs, Miro)
@@ -12,21 +15,17 @@
 - Maintains or improves test coverage 
 - Writes code reviews, provides feedback and asks questions when applicable
 - Updates documentation when applicable
-- Completes work by the agreed upon time and provides progress updates to the team as needed. 
+- Completes work by the agreed upon time and provides progress updates to the team as needed
 - Makes steady and consistent progress on well defined tasks
 	
 ## Debugging & Monitoring
-- Debugs straightforward issues in their primary system. 
-- Writes bug reports that are clear, concise, with reproducible steps.
+- Debugs straightforward issues in their primary system
+- Writes bug reports that are clear, concise, with reproducible steps
 - Monitors their team's alert channels and knows where in the code that alert fired from
 - Tunes alerts to reduce noise at the direction of the larger team
 	
-
 ## Experience
-
-
-## Scope
-
+High level understanding of web architecture, databases and operating systems
 
 ## Example activity breakdown
 70% - Contribute Solutions with Code
