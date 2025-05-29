@@ -23,4 +23,4 @@ These guidelines are aimed at engineering leaders at Outside to propose changes 
     - Reviewers should check for:
       - Does this reflect my current team and the roles they're in?
       - Is the criteria useful to frame career and performance conversations with current employees?
-      - Are these behaviors that can be observed tought and evaluated?
+      - Are these behaviors that can be observed, taught and evaluated?
