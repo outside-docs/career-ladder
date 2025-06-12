@@ -13,7 +13,7 @@ I increasingly optimize beyond just my team by driving cross-team or cross-disci
 - Understands competing priorities and acts accordingly
 - Design solutions (of z complexity) that are aligned with the overall architecture
 - Assists with technical discovery during planning to reduce ambiguity
-- Contributes to the product roadmap
+- Influences product roadmap by bringing technical insight and aligning engineering priorities with business goals
 
 ## Technical Contributions
 - Develops coding best practices for the team and utilizes automation where possible to enforce best practices
