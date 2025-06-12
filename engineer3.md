@@ -7,7 +7,7 @@ I own work primarily with my direct team and cross-functional partners while dri
 - Developing the skill to communicate technical concepts to non-technical audiences
 
 ## Planning, Prioritization and Architecture
-- Authors technical solution planning artifacts (ie. RFCs, Miro)
+- Authors technical solution planning artifacts (ie. RFCs, Design Diagrams)
 - Provides reliable estimates for both tickets and projects
 - Understands the priority of their tasks and acts accordingly
 - Designs solutions (of y complexity) that are aligned with the overall architecture
