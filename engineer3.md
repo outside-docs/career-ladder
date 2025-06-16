@@ -10,7 +10,7 @@ I own work primarily with my direct team and cross-functional partners while dri
 
 ## Planning, Prioritization and Architecture
 
-- Authors technical solution planning artifacts (ie. RFCs, Design Diagrams)
+- Lead co-author of technical solution planning artifacts (ie. RFCs, Design Diagrams)
 - Provides reliable estimates for both tickets and projects
 - Understands the priority of their tasks and acts accordingly
 - Designs solutions of medium complexity that are aligned with the overall architecture
