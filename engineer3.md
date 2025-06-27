@@ -1,5 +1,5 @@
 ## Scope
-I own work primarily with my direct team and cross-functional partners while driving cross-team collaboration for my project
+An Engineer III owns work primarily with their direct team and cross-functional partners while driving cross-team collaboration for projects
 
 ## Collaboration and Communication
 - Communicates effectively with immediate and dependent teams and stakeholders
