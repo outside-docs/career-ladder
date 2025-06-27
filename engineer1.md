@@ -14,7 +14,7 @@ I own work within the scope of my team with specific guidance from my manager an
 - Writes readable code while learning &  following best practices of the team
 - Maintains or improves test coverage 
 - Writes code reviews, provides feedback and asks questions when applicable
-- Updates documentation when applicable
+- Creates and updates documentation for assigned features or components with guidance, ensuring clarity for reviewers and teammates
 - Completes work by the agreed upon time and provides progress updates to the team as needed
 - Makes steady and consistent progress on well defined tasks
 	
