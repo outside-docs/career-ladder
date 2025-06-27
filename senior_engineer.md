@@ -14,7 +14,7 @@ I increasingly optimize beyond just my team by driving cross-team or cross-disci
 - Authors technical solution planning artifacts (ie. RFCs, Design Diagrams)
 - Provides reliable estimates based off of tech debt, project priorities
 - Understands and balances competing priorities and acts accordingly
-- Design solutions of high complexity that are aligned with the overall architecture
+- Design solutions that require architectural decisions, cross-team coordination, or deep domain knowledge
 - Assists with technical discovery during planning to reduce ambiguity
 - Influences product roadmap by bringing technical insight and aligning engineering priorities with business goals
 

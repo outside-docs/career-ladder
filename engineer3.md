@@ -13,7 +13,7 @@ I own work primarily with my direct team and cross-functional partners while dri
 - Lead co-author of technical solution planning artifacts (ie. RFCs, Design Diagrams)
 - Provides reliable estimates for both tickets and projects
 - Understands the priority of their tasks and acts accordingly
-- Designs solutions of medium complexity that are aligned with the overall architecture
+- Designs solutions for projects with some ambiguity or moderate risk that are aligned with the overall architecture
 - Breaks initiatives into smaller tasks that can be understood by non-technical parties
 - Assists with technical discovery during planning to reduce ambiguity
 
