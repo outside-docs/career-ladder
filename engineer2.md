@@ -12,7 +12,7 @@ I own work primarily within the scope of my team with high level guidance from m
 - Co-authors technical solution planning artifacts (ie. RFCs, Design Diagrams)
 - Provides reliable estimates of individual tickets
 - Understands the priority of their tasks and acts accordingly
-- Design solutions for projects with clear requirements and minimal risk that are aligned with the overall architecture
+- Design solutions for well defined problems following best practices of the codebase
 - Writes technical tasks with occasional guidance
 
 ## Technical Contributions
