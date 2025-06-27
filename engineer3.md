@@ -15,7 +15,7 @@ I own work primarily with my direct team and cross-functional partners while dri
 - Assists with technical discovery during planning to reduce ambiguity
 	
 ## Technical Contributions
-- Writes readable and optimized code. Uses best practices of the language, when team best practices are ambiguous, 
+- Writes readable and optimized code. Uses best practices of the language, when team best practices are ambiguous 
 - Contributes to unit tests and E2E tests 
 - Writes code reviews that are informative, maintain best practices, timely, and thorough
 - Creates and shares currated documentation
@@ -23,8 +23,8 @@ I own work primarily with my direct team and cross-functional partners while dri
 - Subject matter expert of multiple areas of the code base or tools
 	
 ## Debugging & Monitoring
-- Debugs complex issues across multiple systems with help from SMEs as needed
-- Proactively identifies issues using our error and application monitoring tools
+- Debugs complex issues across multiple systems with help from subject matter experts as needed
+- Proactively identifies issues using error and application monitoring tools
 	
 ## Example activity breakdown
 - 70% - Design and Contribute Solutions with Code

@@ -15,13 +15,13 @@ I own work primarily within the scope of my team with high level guidance from m
 ## Technical Contributions
 - Writes readable code following best practices of the team
 - Expands test coverage where necessary
-- Writes code reviews reviews that are helpful and valuable to the team
-- Creates documentation and shared when necessary
+- Writes code reviews that are helpful and valuable to the team
+- Creates and shares documentation when necessary
 - Makes consistent progress on solutions and leverage best practices
 
 ## Debugging & Monitoring
 - Debugs complex issues within their primary system and straightforward issues in adjacent systems 
-- Identifies errors in their primary system and escalate to the team as needed
+- Identifies errors in their primary system and escalates to the team as needed
 
 ## Example activity breakdown
 - 70% - Contribute Solutions with Code
