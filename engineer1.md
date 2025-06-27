@@ -11,7 +11,7 @@ I own work within the scope of my team with specific guidance from my manager an
 - Designs functions, avoiding duplication across codebases and interface-breaking changes based on an understanding of the overall architecture
 	
 ## Technical Contributions
-- Writes readable code while learning & following best practices of the team
+- Writes readable code while learning and following best practices of the team
 - Maintains or improves test coverage 
 - Writes code reviews, provides feedback and asks questions when applicable
 - Updates documentation when applicable
