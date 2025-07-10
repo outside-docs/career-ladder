@@ -19,8 +19,8 @@ I own work primarily with my direct team and cross-functional partners while dri
 
 ## Technical Contributions
 
-- Writes readable and optimized code. Uses best practices of the language, when team best practices are ambiguous 
-- Contributes to unit tests and E2E tests 
+- Writes readable and optimized code. Uses best practices of the language, when team best practices are ambiguous
+- Contributes to unit tests and E2E tests
 - Writes code reviews that are informative, maintain best practices, timely, and thorough
 - Owns documentation for complex systems within their domain to support effective collaboration and maintenance
 - Makes consistent progresss on medium-to-large solutions and leverage best practices
