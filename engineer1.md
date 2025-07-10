@@ -3,7 +3,7 @@ I own work within the scope of my team with specific guidance from my manager an
 
 ## Collaboration and Communication
 - Communicates effectively with immediate team
-- Researches issues independently but then asks for help if blocked, appropriately conveying the issue and research done
+- Researches issues independently but then asks for help when appropriate, clearly conveying the issue and research done
 
 ## Planning, Prioritization and Architecture
 - Reads and comments on technical solution planning artifacts (ie. RFCs, Design Diagrams)
