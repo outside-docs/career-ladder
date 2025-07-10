@@ -1,11 +1,11 @@
 ## Scope
 
-I own work primarily within the scope of my team with high level guidance from my manager and engineering lead
+An Engineer II owns work primarily within the scope of their team with high level guidance from their manager and engineering lead
 
 ## Collaboration and Communication
 
 - Communicates effectively with immediate and dependent teams and stakeholders
-- Knows how to navigate within your product's business unit to help solve or track down issues
+- Navigates within their business unit to help solve or track down issues
 
 ## Planning, Prioritization and Architecture
 

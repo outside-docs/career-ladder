@@ -1,5 +1,5 @@
 ## Scope
-I own work within the scope of my team with specific guidance from my manager and engineering lead
+An Engineer I owns work within the scope of their team with specific guidance from their manager and engineering lead
 
 ## Collaboration and Communication
 - Communicates effectively with immediate team

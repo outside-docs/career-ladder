@@ -1,6 +1,6 @@
 ## Scope
 
-I increasingly optimize beyond just my team by driving cross-team or cross-discipline initiatives - owning work in and adjacent to my primary domain
+A Senior Engineer increasingly optimizes beyond just their team by driving cross-team or cross-discipline initiatives - owning work in and adjacent to their primary domain
 
 ## Collaboration and Communication
 
