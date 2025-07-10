@@ -3,7 +3,7 @@ I own work within the scope of my team with specific guidance from my manager an
 
 ## Collaboration and Communication
 - Communicates effectively with immediate team
-- Researches issues independently but also knows when to ask for help when after becoming blocked, and appropriately conveying the issue and research done
+- Researches issues independently but then asks for help when appropriate, clearly conveying the issue and research done
 
 ## Planning, Prioritization and Architecture
 - Reads and comments on technical solution planning artifacts (ie. RFCs, Design Diagrams)
@@ -11,7 +11,7 @@ I own work within the scope of my team with specific guidance from my manager an
 - Designs functions, avoiding duplication across codebases and interface-breaking changes based on an understanding of the overall architecture
 	
 ## Technical Contributions
-- Writes readable code while learning &  following best practices of the team
+- Writes readable code while learning and following best practices of the team
 - Maintains or improves test coverage 
 - Writes code reviews, provides feedback and asks questions when applicable
 - Owns documentation for assigned features or components with guidance, ensuring clarity for reviewers and teammates
@@ -20,8 +20,8 @@ I own work within the scope of my team with specific guidance from my manager an
 	
 ## Debugging & Monitoring
 - Debugs straightforward issues in their primary system
-- Writes bug reports that are clear, concise, with reproducible steps
-- Monitors their team's alert channels and knows where in the code that alert fired from
+- Writes bug reports that are clear, concise, and with reproducible steps
+- Monitors their team's alert channels and locates the source of the alert in the codebase
 - Tunes alerts to reduce noise at the direction of the larger team
 
 ## Example activity breakdown

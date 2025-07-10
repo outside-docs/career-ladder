@@ -21,12 +21,12 @@ I own work primarily within the scope of my team with high level guidance from m
 - Expands test coverage where necessary
 - Writes code reviews reviews that are helpful and valuable to the team
 - Owns documentation for multiple related components or services, helping ensure team-wide clarity and knowledge sharing
-- Makes consistent progress on solutions and leverage best practices
+- Makes consistent progress on solutions and leverages best practices
 
 ## Debugging & Monitoring
 
-- Debugs complex issues within their primary system and straightforward issues in adjacent systems
-- Identifies errors in their primary system and escalate to the team as needed
+- Debugs complex issues within their primary system and straightforward issues in adjacent systems 
+- Identifies errors in their primary system and escalates to the team as needed
 
 ## Example activity breakdown
 
