@@ -16,7 +16,7 @@ I own work primarily within the scope of my team with high level guidance from m
 - Writes readable code following best practices of the team
 - Expands test coverage where necessary
 - Writes code reviews reviews that are helpful and valuable to the team
-- Creates documentation and shared when necessary
+- Owns documentation for multiple related components or services, helping ensure team-wide clarity and knowledge sharing
 - Makes consistent progress on solutions and leverage best practices
 
 ## Debugging & Monitoring

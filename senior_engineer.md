@@ -20,6 +20,7 @@ I increasingly optimize beyond just my team by driving cross-team or cross-disci
 - Manages, contributes, and performs upkeep on unit tests & E2E tests
 - Writes code review feedback that is timely, sought after and respected, and often the source of others’ learning
 - Subject matter expert of 1 or more codebases
+- Owns documentation for complex systems, establishes and promotes team-wide documentation standards, and ensures technical decisions are thoroughly documented
 - Begins to delegate tasks, or pair programs on tasks for the purpose of knowledge sharing with other engineers
 
 ## Debugging & Monitoring
