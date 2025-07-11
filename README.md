@@ -10,3 +10,5 @@
 - [Engineer 2](engineer2.md )
 - [Engineer 3](engineer3.md )
 - [Senior Engineer](senior_engineer.md )
+- [Staff Engineer](staff_engineer.md )
+- [Principal Engineer](principal_engineer.md )
