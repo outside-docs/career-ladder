@@ -31,4 +31,4 @@ An Engineer I owns work within the scope of their team with specific guidance fr
 - 10% - Learn about and maintain best practices
 
 ## Experience
-- Foundational understanding of architecture, databases and operating systems
+- High level understanding of architecture, databases and operating systems
