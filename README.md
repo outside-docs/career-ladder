@@ -1,5 +1,9 @@
 # Outside Engineering Career Ladder
 
+This documentation is maintained via Github repo and hosted as a static site on Github Pages
+* [Here is the link to the source code](https://github.com/outside-docs/career-ladder)
+* [Here is the link to the static site](https://potential-garbanzo-rwz2pj1.pages.github.io/)
+
 ## All Engineers 
 - Look for ways to help and support each other.
 - Honor team commitments and respond to email/chat in a timely manner.
