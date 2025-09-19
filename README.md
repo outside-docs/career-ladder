@@ -6,9 +6,18 @@
 - Proactively ask for feedback from teammates, graciously accept it and identify ways to act upon it.
 
 ## Role Descriptions
+
+### Individual Contributor
 - [Engineer 1](engineer1.md )
 - [Engineer 2](engineer2.md )
 - [Engineer 3](engineer3.md )
 - [Senior Engineer](senior_engineer.md )
 - [Staff Engineer](staff_engineer.md )
 - [Principal Engineer](principal_engineer.md )
+
+### Management
+- [Engineering Manager](engineering_manager.md)
+- [Senior Engineering Manager](senior_engineering_manager.md)
+- [Director](director.md)
+- [Senior Director](senior_director.md)
+- [VP of Engineering](vp_engineering.md)
