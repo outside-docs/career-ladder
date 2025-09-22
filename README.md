@@ -2,7 +2,7 @@
 
 This documentation is maintained via Github repo and hosted as a static site on Github Pages
 * [Here is the link to the source code](https://github.com/outside-docs/career-ladder)
-* [Here is the link to the static site](https://potential-garbanzo-rwz2pj1.pages.github.io/)
+* [Here is the link to the static site](https://outside-docs.github.io/career-ladder/)
 
 ## All Engineers 
 - Look for ways to help and support each other.
