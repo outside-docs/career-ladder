@@ -1,3 +1,5 @@
+# Engineer 1
+
 ## Scope
 An Engineer I owns work within the scope of their team with specific guidance from their manager and engineering lead
 
@@ -7,7 +9,7 @@ An Engineer I owns work within the scope of their team with specific guidance fr
 
 ## Planning, Prioritization and Architecture
 - Reads and comments on technical solution planning artifacts (ie. RFCs, Design Diagrams)
-- Works according to priority of their tasks
+- Acts on assigned priorities
 - Designs functions, avoiding duplication across codebases and interface-breaking changes based on an understanding of the overall architecture
 	
 ## Technical Contributions

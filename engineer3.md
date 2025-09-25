@@ -1,3 +1,5 @@
+# Engineer 3
+
 ## Scope
 
 An Engineer III owns work primarily with their direct team and cross-functional partners while driving cross-team collaboration for projects
@@ -12,7 +14,7 @@ An Engineer III owns work primarily with their direct team and cross-functional 
 
 - Co-author of technical solution planning artifacts (ie. RFCs, Design Diagrams)
 - Provides reliable estimates for both tickets and projects
-- Understands the priority of their tasks and acts accordingly
+- Balances the priority of their tasks with immediate team needs and acts accordingly
 - Designs solutions for problems of moderate ambiguity/complexity that are aligned with the overall architecture
 - Breaks initiatives into smaller tasks that can be understood by non-technical parties
 - Assists with technical discovery during planning to reduce ambiguity

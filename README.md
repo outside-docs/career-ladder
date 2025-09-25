@@ -1,5 +1,9 @@
 # Outside Engineering Career Ladder
 
+This documentation is maintained via Github repo and hosted as a static site on Github Pages
+* [Here is the link to the source code](https://github.com/outside-docs/career-ladder)
+* [Here is the link to the static site](https://outside-docs.github.io/career-ladder/)
+
 ## All Engineers 
 - Look for ways to help and support each other.
 - Honor team commitments and respond to email/chat in a timely manner.
@@ -8,16 +12,16 @@
 ## Role Descriptions
 
 ### Individual Contributor
-- [Engineer 1](engineer1.md )
-- [Engineer 2](engineer2.md )
-- [Engineer 3](engineer3.md )
-- [Senior Engineer](senior_engineer.md )
-- [Staff Engineer](staff_engineer.md )
-- [Principal Engineer](principal_engineer.md )
+- [Engineer 1](./engineer1.md)
+- [Engineer 2](./engineer2.md)
+- [Engineer 3](./engineer3.md)
+- [Senior Engineer](./senior_engineer.md)
+- [Staff Engineer](./staff_engineer.md)
+- [Principal Engineer](./principal_engineer.md)
 
 ### Management
-- [Engineering Manager](engineering_manager.md)
-- [Senior Engineering Manager](senior_engineering_manager.md)
-- [Director](director.md)
-- [Senior Director](senior_director.md)
-- [VP of Engineering](vp_engineering.md)
+- [Engineering Manager](./engineering_manager.md)
+- [Senior Engineering Manager](./senior_engineering_manager.md)
+- [Director](./director.md)
+- [Senior Director](./senior_director.md)
+- [VP of Engineering](./vp_engineering.md)

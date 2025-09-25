@@ -1,3 +1,5 @@
+# Senior Engineer
+
 ## Scope
 
 A Senior Engineer increasingly optimizes beyond just their team by driving cross-team or cross-discipline initiatives - owning work in and adjacent to their primary domain
@@ -12,7 +14,7 @@ A Senior Engineer increasingly optimizes beyond just their team by driving cross
 
 - Authors technical solution planning artifacts (ie. RFCs, Design Diagrams)
 - Provides reliable estimates considering tech debt, quality, and project priorities
-- Understands competing priorities and acts accordingly
+- Translates product priorities into technical priorities and clearly communicate those to the team
 - Design solutions that require architectural decisions, cross-team coordination, or deep domain knowledge
 - Assists with technical discovery during planning to reduce ambiguity
 - Influences product roadmap by bringing technical insight and aligning engineering priorities with business goals
