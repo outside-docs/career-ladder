@@ -1,3 +1,5 @@
+# Staff Engineer
+
 ## Scope
 
 A Staff Engineer influences the roadmaps of other teams to achieve business impacting goals. They exercise judgement that favors the priorities of the wider engineering org rather than favoring locally optimal outcomes
