@@ -10,9 +10,18 @@ This documentation is maintained via Github repo and hosted as a static site on 
 - Proactively ask for feedback from teammates, graciously accept it and identify ways to act upon it.
 
 ## Role Descriptions
-- [Engineer 1](./engineer1.md)
-- [Engineer 2](./engineer2.md)
-- [Engineer 3](./engineer3.md)
-- [Senior Engineer](./senior_engineer.md)
-- [Staff Engineer](./staff_engineer.md)
-- [Principal Engineer](./principal_engineer.md)
+
+### Individual Contributor
+- [Engineer 1](./individual_contributor/engineer1.md)
+- [Engineer 2](./individual_contributor/engineer2.md)
+- [Engineer 3](./individual_contributor/engineer3.md)
+- [Senior Engineer](./individual_contributor/senior_engineer.md)
+- [Staff Engineer](./individual_contributor/staff_engineer.md)
+- [Principal Engineer](./individual_contributor/principal_engineer.md)
+
+### Management
+- [Engineering Manager](./management/engineering_manager.md)
+- [Senior Engineering Manager](./management/senior_engineering_manager.md)
+- [Director](./management/director.md)
+- [Senior Director](./management/senior_director.md)
+- [VP of Engineering](./management/vp_engineering.md)
