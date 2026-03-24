@@ -8,16 +8,18 @@ Provides leadership and direction across multiple teams and technical domains, a
 
 - Develops and maintains high engineering standards across various products and services
 - Creates and ensures continued alignment on strategy across engineering, product and design
-- Manages tooling, 3rd party vendors and contractors to support efficient development processes 
+- Manages tooling, 3rd party vendors and contractors to support efficient development processes
 - Ensures a positive, collaborative cross functional atmosphere across the department
+- Drives AI tooling strategy for the department, evaluating and investing in tools that measurably improve engineering output and quality
 
 ## Talent Development
 
-- Drives the full talent lifecycle for their group, including hiring, culture-building, growth, performance management and retention
-- Guides and grows both managers and senior ICs, helping them advance their careers by finding them highly-leveraged roles within the organization
+- Drives the full talent lifecycle for their group, including hiring, culture-building, growth, performance management and retention
+- Guides and grows both managers and senior ICs, helping them advance their careers by finding them highly-leveraged roles within the organization
 - Invests time in community outreach and recruiting to develop a pipeline for future talent
+- Sets the expectation that AI proficiency is a core engineering competency and ensures it is reflected in hiring, onboarding, and performance standards
 
-## Hiring and onboarding
+## Hiring and Onboarding
 
 - Interviews and assesses candidates for teams throughout the company
 - Drives improvements to hiring and interviewing processes and standards

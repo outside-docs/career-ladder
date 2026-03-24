@@ -2,7 +2,7 @@
 
 ## Scope
 
-An Engineer II owns work primarily within the scope of their team with high level guidance from their manager and engineering lead
+An Engineer 2 owns work primarily within the scope of their team with high level guidance from their manager and engineering lead
 
 ## Collaboration and Communication
 
@@ -14,20 +14,22 @@ An Engineer II owns work primarily within the scope of their team with high leve
 - Co-authors technical solution planning artifacts (ie. RFCs, Design Diagrams)
 - Provides reliable estimates of individual tickets
 - Understands the priority of their tasks and acts accordingly
-- Design solutions for well defined problems following best practices of the codebase
+- Designs solutions for well defined problems following best practices of the codebase
 - Writes technical tasks with occasional guidance
 
 ## Technical Contributions
 
 - Writes readable code following best practices of the team
-- Expands test coverage where necessary
-- Writes code reviews reviews that are helpful and valuable to the team
+- Integrates AI tools into daily workflow to increase velocity on well-defined tasks while evaluating AI-generated code critically before incorporating it
+- Expands test coverage where necessary, leveraging AI to ensure comprehensive unit and integration tests for all changes
+- Writes code reviews that are helpful and valuable to the team
 - Owns documentation for multiple related components or services, helping ensure team-wide clarity and knowledge sharing
 - Makes consistent progress on solutions and leverages best practices
+- Delivers complete, well-tested features on schedule
 
 ## Debugging & Monitoring
 
-- Debugs complex issues within their primary system and straightforward issues in adjacent systems 
+- Debugs complex issues within their primary system and straightforward issues in adjacent systems
 - Identifies errors in their primary system and escalates to the team as needed
 
 ## Example activity breakdown
@@ -35,7 +37,7 @@ An Engineer II owns work primarily within the scope of their team with high leve
 - 70% - Contribute Solutions with Code
 - 10% - Collaboration, Code Reviews, etc
 - 10% - Logistics such as planning, estimation, etc
-- 10% - Maintain best practices and resolve issues"
+- 10% - Maintain best practices and resolve issues
 
 ## Experience
 

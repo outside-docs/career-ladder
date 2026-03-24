@@ -2,17 +2,17 @@
 
 ## Scope
 
-An Engineer III owns work primarily with their direct team and cross-functional partners while driving cross-team collaboration for projects
+An Engineer 3 owns work primarily with their direct team and cross-functional partners while driving cross-team collaboration for projects
 
 ## Collaboration and Communication
 
 - Communicates effectively with immediate and dependent teams and stakeholders
-- Attends and/or facilitate meetings with stakeholders to gather or ask technical questions without reliance on EM or PM
+- Attends and/or facilitates meetings with stakeholders to gather or ask technical questions without reliance on EM or PM
 - Developing the skill to communicate technical concepts to non-technical audiences
 
 ## Planning, Prioritization and Architecture
 
-- Co-author of technical solution planning artifacts (ie. RFCs, Design Diagrams)
+- Co-authors technical solution planning artifacts (ie. RFCs, Design Diagrams)
 - Provides reliable estimates for both tickets and projects
 - Balances the priority of their tasks with immediate team needs and acts accordingly
 - Designs solutions for problems of moderate ambiguity/complexity that are aligned with the overall architecture
@@ -22,10 +22,12 @@ An Engineer III owns work primarily with their direct team and cross-functional 
 ## Technical Contributions
 
 - Writes readable and optimized code. Uses best practices of the language, when team best practices are ambiguous
-- Contributes to unit tests and E2E tests
+- Uses AI tools strategically to tackle moderate complexity problems faster, identifying which tasks benefit most from AI assistance vs. manual approaches
+- Contributes comprehensive unit tests and end-to-end tests, using AI to maximize coverage and catch edge cases
 - Writes code reviews that are informative, maintain best practices, timely, and thorough
 - Owns documentation for complex systems within their domain to support effective collaboration and maintenance
-- Makes consistent progresss on medium-to-large solutions and leverage best practices
+- Makes consistent progress on medium-to-large solutions and leverages best practices
+- Helps teammates adopt AI tools effectively to improve team-wide velocity
 - Subject matter expert of multiple areas of the code base or tools
 
 ## Debugging & Monitoring
