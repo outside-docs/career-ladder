@@ -21,7 +21,7 @@ An Engineer 2 owns work primarily within the scope of their team with high level
 
 - Writes readable code following best practices of the team
 - Integrates AI tools into daily workflow to increase velocity on well-defined tasks while evaluating AI-generated code critically before incorporating it
-- Expands test coverage where necessary, leveraging AI to ensure comprehensive unit and integration tests for all changes
+- Expands test coverage where necessary, leveraging AI to ensure effective unit and integration tests for all changes
 - Writes code reviews that are helpful and valuable to the team
 - Owns documentation for multiple related components or services, helping ensure team-wide clarity and knowledge sharing
 - Makes consistent progress on solutions and leverages best practices
