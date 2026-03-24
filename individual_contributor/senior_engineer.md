@@ -28,7 +28,7 @@ A Senior Engineer increasingly optimizes beyond just their team by driving cross
 - Writes code review feedback that is timely, sought after and respected, and often the source of others' learning
 - Subject matter expert of 1 or more codebases
 - Owns documentation for complex systems, establishes and promotes team-wide documentation standards, and ensures technical decisions are thoroughly documented
-- Delegates tasks and pair programs for the purpose of knowledge sharing with other engineers
+- Delegates tasks and pair-programs for the purpose of knowledge sharing with other engineers
 - Consistently delivers ahead of estimates by leveraging AI and automation to eliminate repetitive work
 
 ## Debugging & Monitoring
