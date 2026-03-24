@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Engineering Career Ladder — Outside</title>
+<style>
+  /* ================================================================
+     Reset & Custom Properties
+     ================================================================ */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --sidebar-w: 272px;
+    --bg: #f5f6f8;
+    --sidebar-bg: #141720;
+    --sidebar-hover: #1e2231;
+    --sidebar-active: #272c3d;
+    --accent: #4c6ef5;
+    --accent-soft: #edf0ff;
+    --ic-color: #4c6ef5;
+    --mgmt-color: #7c3aed;
+    --text: #1e2330;
+    --text-secondary: #5c6478;
+    --border: #e0e3e9;
+    --card: #ffffff;
+    --banner-bg: #eef1ff;
+    --banner-border: #c7d0fb;
+    --radius: 8px;
+    --ease: 200ms ease;
+    --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  html { font-size: 15px; scroll-behavior: smooth; }
+
+  body {
+    font-family: var(--font);
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* ================================================================
+     App Shell
+     ================================================================ */
+  .app { display: flex; min-height: 100vh; }
+
+  /* ================================================================
+     Sidebar
+     ================================================================ */
+  .sidebar {
+    position: fixed;
+    inset: 0 auto 0 0;
+    width: var(--sidebar-w);
+    background: var(--sidebar-bg);
+    color: #b0b7c8;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    transition: transform var(--ease);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #2a3040 transparent;
+  }
+  .sidebar::-webkit-scrollbar { width: 5px; }
+  .sidebar::-webkit-scrollbar-thumb { background: #2a3040; border-radius: 4px; }
+
+  .sidebar-header {
+    padding: 28px 22px 18px;
+    border-bottom: 1px solid rgba(255,255,255,.06);
+    flex-shrink: 0;
+  }
+  .sidebar-header h1 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: -.02em;
+    line-height: 1.35;
+  }
+  .sidebar-header .org {
+    font-size: .68rem;
+    color: #5c6478;
+    margin-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    font-weight: 600;
+  }
+
+  .sidebar-nav { flex: 1; padding: 14px 0 20px; }
+
+  .nav-group { margin-bottom: 6px; }
+  .nav-group-label {
+    padding: 10px 22px 6px;
+    font-size: .63rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    color: #4a5068;
+  }
+
+  .nav-item {
+    padding: 10px 22px;
+    cursor: pointer;
+    transition: background var(--ease), color var(--ease);
+    font-size: .9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .nav-item:hover { background: var(--sidebar-hover); color: #ffffff; }
+  .nav-item.active { background: var(--sidebar-active); color: #ffffff; font-weight: 500; }
+
+  .nav-item .level-badge {
+    display: inline-block;
+    font-size: .75rem;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-left: 6px;
+    opacity: 0.7;
+  }
+  .nav-item.active .level-badge { opacity: 1; }
+
+  .nav-item.ic .level-badge { background: rgba(76, 110, 245, 0.2); color: var(--ic-color); }
+  .nav-item.mgmt .level-badge { background: rgba(124, 58, 237, 0.2); color: var(--mgmt-color); }
+
+  @media (max-width: 768px) {
+    .sidebar { transform: translateX(-100%); }
+    .sidebar.open { transform: translateX(0); }
+  }
+
+  /* ================================================================
+     Main Content
+     ================================================================ */
+  .main {
+    flex: 1;
+    margin-left: var(--sidebar-w);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #d0d5dd transparent;
+  }
+  .main::-webkit-scrollbar { width: 8px; }
+  .main::-webkit-scrollbar-thumb { background: #d0d5dd; border-radius: 4px; }
+
+  @media (max-width: 768px) {
+    .main { margin-left: 0; }
+  }
+
+  .content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 24px;
+  }
+
+  /* ================================================================
+     Banner
+     ================================================================ */
+  .banner {
+    background: var(--banner-bg);
+    border: 1px solid var(--banner-border);
+    border-radius: var(--radius);
+    padding: 24px 28px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  .banner h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+  .banner p {
+    color: var(--text-secondary);
+    font-size: .95rem;
+  }
+
+  /* ================================================================
+     Role Header
+     ================================================================ */
+  .role-header {
+    margin-bottom: 32px;
+    animation: fadeIn 300ms ease;
+  }
+
+  .role-title-line {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+  .role-title { font-size: 2rem; font-weight: 700; color: var(--text); }
+  .role-level {
+    font-size: .85rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+  }
+  .role-level.ic { background: var(--accent-soft); color: var(--ic-color); }
+  .role-level.mgmt { background: rgba(124, 58, 237, 0.1); color: var(--mgmt-color); }
+
+  .role-scope {
+    color: var(--text-secondary);
+    font-size: 1.05rem;
+    line-height: 1.7;
+    font-style: italic;
+  }
+
+  /* ================================================================
+     Section Cards
+     ================================================================ */
+  .sections { display: grid; gap: 24px; }
+
+  .section {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px;
+    animation: fadeIn 300ms ease;
+  }
+
+  .section h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .section h3 .icon { font-size: 1.3em; }
+
+  .section ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .section li {
+    color: var(--text);
+    padding-left: 20px;
+    position: relative;
+  }
+  .section li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-weight: bold;
+  }
+
+  /* ================================================================
+     Activity Breakdown
+     ================================================================ */
+  .activity-breakdown {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px;
+    animation: fadeIn 300ms ease;
+  }
+  .activity-breakdown h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 20px;
+  }
+
+  .activity-bar {
+    display: flex;
+    height: 32px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  }
+  .activity-segment {
+    flex-grow: 1;
+    position: relative;
+    transition: opacity 200ms;
+  }
+  .activity-segment:hover { opacity: 0.85; }
+
+  .activity-legend {
+    display: grid;
+    gap: 8px;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: .9rem;
+    color: var(--text);
+  }
+  .legend-color {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+  }
+
+  /* ================================================================
+     Hamburger Menu
+     ================================================================ */
+  .hamburger {
+    display: none;
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    z-index: 101;
+    width: 32px;
+    height: 32px;
+    background: var(--sidebar-bg);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .hamburger span {
+    width: 18px;
+    height: 2px;
+    background: #b0b7c8;
+    border-radius: 1px;
+    transition: all var(--ease);
+  }
+
+  @media (max-width: 768px) {
+    .hamburger { display: flex; }
+    .hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(8px, 8px); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(8px, -8px); }
+  }
+
+  /* ================================================================
+     Animations
+     ================================================================ */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ================================================================
+     Utility
+     ================================================================ */
+  .empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-secondary);
+  }
+  .empty-state p { font-size: 1rem; margin-bottom: 8px; }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <button class="hamburger" id="hamburger"></button>
+
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h1>Career Ladder</h1>
+      <div class="org">Outside</div>
+    </div>
+    <div class="sidebar-nav">
+      <div class="nav-group">
+        <div class="nav-group-label">Individual Contributor</div>
+        <div class="nav-item ic" data-id="engineer1">Engineer 1 <span class="level-badge">IC1</span></div>
+        <div class="nav-item ic" data-id="engineer2">Engineer 2 <span class="level-badge">IC2</span></div>
+        <div class="nav-item ic" data-id="engineer3">Engineer 3 <span class="level-badge">IC3</span></div>
+        <div class="nav-item ic" data-id="senior_engineer">Senior Engineer <span class="level-badge">IC4</span></div>
+        <div class="nav-item ic" data-id="staff_engineer">Staff Engineer <span class="level-badge">IC5</span></div>
+        <div class="nav-item ic" data-id="principal_engineer">Principal Engineer <span class="level-badge">IC6</span></div>
+      </div>
+
+      <div class="nav-group">
+        <div class="nav-group-label">Management</div>
+        <div class="nav-item mgmt" data-id="engineering_manager">Engineering Manager <span class="level-badge">M2</span></div>
+        <div class="nav-item mgmt" data-id="senior_engineering_manager">Senior EM <span class="level-badge">M3</span></div>
+        <div class="nav-item mgmt" data-id="director">Director <span class="level-badge">M4</span></div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main">
+    <div class="content">
+      <div class="banner">
+        <h2>All Engineers</h2>
+        <p>Career growth at Outside is defined by delivering impact, supporting teammates, and raising the bar for engineering excellence.</p>
+      </div>
+      <div id="role-content"></div>
+    </div>
+  </main>
+</div>
+
+<script>
+const roles = {
+  engineer1: {
+    title: "Engineer 1",
+    track: "ic",
+    level: "IC1",
+    scope: "An Engineer 1 owns work within the scope of their team with specific guidance from their manager and engineering lead",
+    sections: [
+      {
+        heading: "Collaboration & Communication",
+        icon: "💬",
+        items: [
+          "Communicates effectively with immediate team",
+          "Researches issues independently but then asks for help when appropriate, clearly conveying the issue and research done"
+        ]
+      },
+      {
+        heading: "Planning, Prioritization & Architecture",
+        icon: "📋",
+        items: [
+          "Reads and comments on technical solution planning artifacts (ie. RFCs, Design Diagrams)",
+          "Acts on assigned priorities",
+          "Designs functions, avoiding duplication across codebases and interface-breaking changes based on an understanding of the overall architecture"
+        ]
+      },
+      {
+        heading: "Technical Contributions",
+        icon: "⚙️",
+        items: [
+          "Writes readable code while learning and following best practices of the team",
+          "Maintains or improves test coverage",
+          "Writes code reviews, provides feedback and asks questions when applicable",
+          "Owns documentation for assigned features or components with guidance, ensuring clarity for reviewers and teammates",
+          "Completes work by the agreed upon time and provides progress updates to the team as needed",
+          "Makes steady and consistent progress on well defined tasks"
+        ]
+      },
+      {
+        heading: "Debugging & Monitoring",
+        icon: "🔍",
+        items: [
+          "Debugs straightforward issues in their primary system",
+          "Writes bug reports that are clear, concise, and with reproducible steps",
+          "Monitors their team's alert channels and locates the source of the alert in the codebase",
+          "Tunes alerts to reduce noise at the direction of the larger team"
+        ]
+      }
+    ],
+    activity: [
+      { pct: 70, label: "Contribute Solutions with Code", color: "#4c6ef5" },
+      { pct: 10, label: "Collaboration, Code Reviews, etc", color: "#5c7cfa" },
+      { pct: 10, label: "Logistics such as planning, estimation, etc", color: "#748ffc" },
+      { pct: 10, label: "Learn about and maintain best practices", color: "#91a7ff" }
+    ]
+  },
+  engineer2: {
+    title: "Engineer 2",
+    track: "ic",
+    level: "IC2",
+    scope: "An Engineer 2 owns work primarily within the scope of their team with high level guidance from their manager and engineering lead",
+    sections: [
+      {
+        heading: "Collaboration & Communication",
+        icon: "💬",
+        items: [
+          "Communicates effectively with immediate and dependent teams and stakeholders",
+          "Navigates within their business unit to help solve or track down issues"
+        ]
+      },
+      {
+        heading: "Planning, Prioritization & Architecture",
+        icon: "📋",
+        items: [
+          "Co-authors technical solution planning artifacts (ie. RFCs, Design Diagrams)",
+          "Provides reliable estimates of individual tickets",
+          "Understands the priority of their tasks and acts accordingly",
+          "Designs solutions for well defined problems following best practices of the codebase",
+          "Writes technical tasks with occasional guidance"
+        ]
+      },
+      {
+        heading: "Technical Contributions",
+        icon: "⚙️",
+        items: [
+          "Writes readable code following best practices of the team",
+          "Expands test coverage where necessary",
+          "Writes code reviews that are helpful and valuable to the team",
+          "Owns documentation for multiple related components or services, helping ensure team-wide clarity and knowledge sharing",
+          "Makes consistent progress on solutions and leverages best practices"
+        ]
+      },
+      {
+        heading: "Debugging & Monitoring",
+        icon: "🔍",
+        items: [
+          "Debugs complex issues within their primary system and straightforward issues in adjacent systems",
+          "Identifies errors in their primary system and escalates to the team as needed"
+        ]
+      }
+    ],
+    activity: [
+      { pct: 70, label: "Contribute Solutions with Code", color: "#4c6ef5" },
+      { pct: 10, label: "Collaboration, Code Reviews, etc", color: "#5c7cfa" },
+      { pct: 10, label: "Logistics such as planning, estimation, etc", color: "#748ffc" },
+      { pct: 10, label: "Maintain best practices and resolve issues", color: "#91a7ff" }
+    ]
+  },
+  engineer3: {
+    title: "Engineer 3",
+    track: "ic",
+    level: "IC3",
+    scope: "An Engineer 3 owns work primarily with their direct team and cross-functional partners while driving cross-team collaboration for projects",
+    sections: [
+      {
+        heading: "Collaboration & Communication",
+        icon: "💬",
+        items: [
+          "Communicates effectively with immediate and dependent teams and stakeholders",
+          "Attends and/or facilitates meetings with stakeholders to gather or ask technical questions without reliance on EM or PM",
+          "Developing the skill to communicate technical concepts to non-technical audiences"
+        ]
+      },
+      {
+        heading: "Planning, Prioritization & Architecture",
+        icon: "📋",
+        items: [
+          "Co-authors technical solution planning artifacts (ie. RFCs, Design Diagrams)",
+          "Provides reliable estimates for both tickets and projects",
+          "Balances the priority of their tasks with immediate team needs and acts accordingly",
+          "Designs solutions for problems of moderate ambiguity/complexity that are aligned with the overall architecture",
+          "Breaks initiatives into smaller tasks that can be understood by non-technical parties",
+          "Assists with technical discovery during planning to reduce ambiguity"
+        ]
+      },
+      {
+        heading: "Technical Contributions",
+        icon: "⚙️",
+        items: [
+          "Writes readable and optimized code. Uses best practices of the language, when team best practices are ambiguous",
+          "Contributes to unit tests and E2E tests",
+          "Writes code reviews that are informative, maintain best practices, timely, and thorough",
+          "Owns documentation for complex systems within their domain to support effective collaboration and maintenance",
+          "Makes consistent progress on medium-to-large solutions and leverages best practices",
+          "Subject matter expert of multiple areas of the code base or tools"
+        ]
+      },
+      {
+        heading: "Debugging & Monitoring",
+        icon: "🔍",
+        items: [
+          "Debugs complex issues across multiple systems with help from subject matter experts as needed",
+          "Proactively identifies issues using error and application monitoring tools"
+        ]
+      }
+    ],
+    activity: [
+      { pct: 70, label: "Design & Contribute Solutions with Code", color: "#4c6ef5" },
+      { pct: 10, label: "Collaboration, Code Reviews, etc", color: "#5c7cfa" },
+      { pct: 10, label: "Planning, Estimation, etc", color: "#748ffc" },
+      { pct: 10, label: "Maintain Best Practices & Resolve Issues", color: "#91a7ff" }
+    ]
+  },
+  senior_engineer: {
+    title: "Senior Engineer",
+    track: "ic",
+    level: "IC4",
+    scope: "A Senior Engineer increasingly optimizes beyond just their team by driving cross-team or cross-discipline initiatives — owning work in and adjacent to their primary domain",
+    sections: [
+      {
+        heading: "Collaboration & Communication",
+        icon: "💬",
+        items: [
+          "Communicates effectively with the organization, helps others in team to communicate",
+          "Attends and/or facilitates meetings with stakeholders to gather or ask technical questions without reliance on EM or PM",
+          "Communicates technical concepts to non-technical audiences"
+        ]
+      },
+      {
+        heading: "Planning, Prioritization & Architecture",
+        icon: "📋",
+        items: [
+          "Authors technical solution planning artifacts (ie. RFCs, Design Diagrams)",
+          "Provides reliable estimates considering tech debt, quality, and project priorities",
+          "Translates product priorities into technical priorities and clearly communicates those to the team",
+          "Designs solutions that require architectural decisions, cross-team coordination, or deep domain knowledge",
+          "Assists with technical discovery during planning to reduce ambiguity",
+          "Influences product roadmap by bringing technical insight and aligning engineering priorities with business goals"
+        ]
+      },
+      {
+        heading: "Technical Contributions",
+        icon: "⚙️",
+        items: [
+          "Develops coding best practices for the team and utilizes automation where possible to enforce best practices",
+          "Manages, contributes, and maintains unit tests & end-to-end tests",
+          "Writes code review feedback that is timely, sought after and respected, and often the source of others' learning",
+          "Subject matter expert of 1 or more codebases",
+          "Owns documentation for complex systems, establishes and promotes team-wide documentation standards, and ensures technical decisions are thoroughly documented",
+          "Begins to delegate tasks, or pair programs on tasks for the purpose of knowledge sharing with other engineers"
+        ]
+      },
+      {
+        heading: "Debugging & Monitoring",
+        icon: "🔍",
+        items: [
+          "Debugs the toughest issues while weighing solutions against constraints",
+          "Strategizes the full cycle of monitoring from alerting, metrics, monitors, and tooling for at least 1 system",
+          "Improves the culture of debugging by utilizing debugging as a growth mechanism for less experienced developers"
+        ]
+      }
+    ],
+    activity: [
+      { pct: 60, label: "Facilitate, Create and Design Solutions with Code", color: "#4c6ef5" },
+      { pct: 20, label: "Mentoring, Code Reviews, etc", color: "#5c7cfa" },
+      { pct: 10, label: "Logistics such as planning, estimation, etc", color: "#748ffc" },
+      { pct: 10, label: "Facilitate best practices and resolve issues", color: "#91a7ff" }
+    ]
+  },
+  staff_engineer: {
+    title: "Staff Engineer",
+    track: "ic",
+    level: "IC5",
+    scope: "A Staff Engineer influences the roadmaps of other teams to achieve business impact by leveraging deep technical expertise and driving organization-wide improvements",
+    sections: [
+      {
+        heading: "Technical Contributions",
+        icon: "⚙️",
+        items: [
+          "Leads solution discovery and execution across multiple project domains in coordination with business stakeholders",
+          "Researches, proposes and implements new technology, tools and/or processes that improve productivity, code quality, and/or business opportunities",
+          "Creates sweeping improvements in stability, performance, and scalability across major business-critical systems",
+          "Designs and leads major architectural changes",
+          "Identifies and proactively addresses tech debt before it requires significant investment to resolve"
+        ]
+      },
+      {
+        heading: "Debugging & Monitoring",
+        icon: "🔍",
+        items: []
+      }
+    ],
+    activity: [
+      { pct: 60, label: "Discover, Create and Design Solutions with Code", color: "#4c6ef5" },
+      { pct: 20, label: "Mentoring, Code Reviews, etc", color: "#5c7cfa" },
+      { pct: 10, label: "Logistics such as planning, estimation, etc", color: "#748ffc" },
+      { pct: 10, label: "Evolve best practices and resolve issues", color: "#91a7ff" }
+    ]
+  },
+  principal_engineer: {
+    title: "Principal Engineer",
+    track: "ic",
+    level: "IC6",
+    scope: "A Principal Engineer typically influences the technical strategy and direction of the entire organization, working across multiple teams and domains",
+    sections: [
+      {
+        heading: "Technical Contributions",
+        icon: "⚙️",
+        items: [
+          "Invents and coordinates multi-year, multi-team goals that impact the entire organization, by setting short to medium term strategic direction",
+          "Has a deep understanding of the business priorities and helps navigate decisions for optimal balance of immediate customer impact and long term investment",
+          "Intimately understands the market and trends, related to our technology, industry and competition"
+        ]
+      },
+      {
+        heading: "Debugging & Monitoring",
+        icon: "🔍",
+        items: []
+      }
+    ],
+    activity: [
+      { pct: 60, label: "Discover, POC and Design Solutions with Technology", color: "#4c6ef5" },
+      { pct: 20, label: "Mentoring, Code Reviews, etc", color: "#5c7cfa" },
+      { pct: 10, label: "Logistics such as planning, estimation, etc", color: "#748ffc" },
+      { pct: 10, label: "Evolve best practices and resolve issues", color: "#91a7ff" }
+    ]
+  },
+  engineering_manager: {
+    title: "Engineering Manager",
+    track: "mgmt",
+    level: "M2",
+    scope: "Guides a team of ICs within one technical domain to deliver business impact with support from their manager",
+    sections: [
+      {
+        heading: "Planning and Delivery",
+        icon: "📋",
+        items: [
+          "Empowers and unblocks their team to deliver product goals by establishing efficient execution and operational processes, and holding their team accountable while cultivating a healthy team environment",
+          "Provides subject matter guidance to their team as needed, and helps ensure best practices are documented and utilized across the team",
+          "Manages conflicts to ensure a positive and collaborative atmosphere within their team"
+        ]
+      },
+      {
+        heading: "Talent Development",
+        icon: "👥",
+        items: [
+          "Fosters career growth by seeking challenging, impactful work for all members of their team based on skills and interests",
+          "Provides real-time feedback and coaching to their team to drive high performance and career growth",
+          "Sets clear expectations and addresses performance issues with support from their manager"
+        ]
+      },
+      {
+        heading: "Hiring and Onboarding",
+        icon: "🎯",
+        items: [
+          "Participates in interviews to help identify the best candidates for the team",
+          "Ensures that teams within their domain are staffed and structured properly to be set up for success, with support from their manager",
+          "Follows and iterates upon Outside's onboarding process to create a welcoming and engaging environment for new hires"
+        ]
+      }
+    ],
+    activity: [
+      { pct: 30, label: "1 on 1s", color: "#7c3aed" },
+      { pct: 25, label: "Performance reviews", color: "#a855f7" },
+      { pct: 20, label: "Attending and/or facilitating team ceremonies", color: "#c084fc" },
+      { pct: 25, label: "Development process, tooling, hiring", color: "#d8b4fe" }
+    ]
+  },
+  senior_engineering_manager: {
+    title: "Senior Engineering Manager",
+    track: "mgmt",
+    level: "M3",
+    scope: "Guides a team of ICs within multiple technical domains to deliver business impact with support from their manager",
+    sections: [
+      {
+        heading: "Planning and Delivery",
+        icon: "📋",
+        items: [
+          "Evaluates new and existing development to ensure alignment with business goals and best practices",
+          "Clarifies direction to keep their teams on track, and creates alignment to adjust course when needed without stifling dissent"
+        ]
+      },
+      {
+        heading: "Talent Development",
+        icon: "👥",
+        items: [
+          "Works to ensure that even those not reporting directly to them are well leveraged across the department, through cross-team reach, improving processes, or by finding opportunities for those who are under leveraged",
+          "Holds their team accountable for performance expectations and takes different approaches to motivating high performers and turning around low performers"
+        ]
+      },
+      {
+        heading: "Hiring and Onboarding",
+        icon: "🎯",
+        items: [
+          "Participates in interviews to help identify the best candidates for the team within their department",
+          "Ensures that teams within their domain are staffed and structured properly across domains to be set up for success"
+        ]
+      }
+    ],
+    activity: [
+      { pct: 30, label: "1 on 1s", color: "#7c3aed" },
+      { pct: 25, label: "Performance reviews", color: "#a855f7" },
+      { pct: 20, label: "Cross-team coordination", color: "#c084fc" },
+      { pct: 25, label: "Strategic planning and hiring", color: "#d8b4fe" }
+    ]
+  },
+  director: {
+    title: "Director",
+    track: "mgmt",
+    level: "M4",
+    scope: "Provides leadership and direction across multiple teams and technical domains, and typically manages managers and senior ICs",
+    sections: [
+      {
+        heading: "Planning and Delivery",
+        icon: "📋",
+        items: [
+          "Develops and maintains high engineering standards across various products and services",
+          "Creates and ensures continued alignment on strategy across engineering, product and design",
+          "Manages tooling, 3rd party vendors and contractors to support efficient development processes",
+          "Ensures a positive, collaborative cross functional atmosphere across the department"
+        ]
+      },
+      {
+        heading: "Talent Development",
+        icon: "👥",
+        items: [
+          "Drives the full talent lifecycle for their group, including hiring, culture-building, growth, performance management and retention",
+          "Guides and grows both managers and senior ICs, helping them advance their careers by finding them highly-leveraged roles within the organization",
+          "Invests time in community outreach and recruiting to develop a pipeline for future talent"
+        ]
+      },
+      {
+        heading: "Hiring and Onboarding",
+        icon: "🎯",
+        items: [
+          "Interviews and assesses candidates for teams throughout the company",
+          "Drives improvements to hiring and interviewing processes and standards",
+          "Attracts senior and diverse talent to the company and has strong connections to the development community",
+          "Creates and aligns staffing plans with business goals across multi-year timelines"
+        ]
+      }
+    ],
+    activity: [
+      { pct: 25, label: "1 on 1s", color: "#7c3aed" },
+      { pct: 20, label: "Performance reviews", color: "#a855f7" },
+      { pct: 20, label: "Department strategy & alignment", color: "#c084fc" },
+      { pct: 35, label: "Hiring, vendor management, budgets", color: "#d8b4fe" }
+    ]
+  }
+};
+
+function renderRole(id) {
+  const role = roles[id];
+  if (!role) return;
+
+  let html = `
+    <div class="role-header">
+      <div class="role-title-line">
+        <h1 class="role-title">${role.title}</h1>
+        <span class="role-level ${role.track}">${role.level}</span>
+      </div>
+      <p class="role-scope">${role.scope}</p>
+    </div>
+
+    <div class="sections">
+  `;
+
+  role.sections.forEach(section => {
+    html += `
+      <div class="section">
+        <h3><span class="icon">${section.icon}</span>${section.heading}</h3>
+        <ul>
+          ${section.items.map(item => `<li>${item}</li>`).join('')}
+        </ul>
+      </div>
+    `;
+  });
+
+  html += `
+    </div>
+
+    <div class="activity-breakdown">
+      <h3>Activity Breakdown</h3>
+      <div class="activity-bar">
+        ${role.activity.map(a => `<div class="activity-segment" style="flex-basis: ${a.pct}%; background: ${a.color};"></div>`).join('')}
+      </div>
+      <div class="activity-legend">
+        ${role.activity.map(a => `
+          <div class="legend-item">
+            <div class="legend-color" style="background: ${a.color};"></div>
+            <span>${a.pct}% - ${a.label}</span>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+
+  document.getElementById('role-content').innerHTML = html;
+}
+
+// Navigation
+document.querySelectorAll('.nav-item').forEach(item => {
+  item.addEventListener('click', () => {
+    const id = item.getAttribute('data-id');
+    renderRole(id);
+    window.location.hash = id;
+
+    document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
+    item.classList.add('active');
+
+    const sidebar = document.getElementById('sidebar');
+    if (sidebar.classList.contains('open')) {
+      sidebar.classList.remove('open');
+      document.getElementById('hamburger').classList.remove('open');
+    }
+  });
+});
+
+// Hamburger menu
+document.getElementById('hamburger').addEventListener('click', () => {
+  const sidebar = document.getElementById('sidebar');
+  const hamburger = document.getElementById('hamburger');
+  sidebar.classList.toggle('open');
+  hamburger.classList.toggle('open');
+});
+
+// Hash routing
+window.addEventListener('hashchange', () => {
+  const id = window.location.hash.slice(1);
+  if (roles[id]) {
+    renderRole(id);
+    document.querySelectorAll('.nav-item').forEach(item => {
+      item.classList.toggle('active', item.getAttribute('data-id') === id);
+    });
+  }
+});
+
+// Initial render
+const initialId = window.location.hash.slice(1) || 'engineer1';
+renderRole(initialId);
+document.querySelector(`[data-id="${initialId}"]`).classList.add('active');
+</script>
+
+</body>
+</html>
