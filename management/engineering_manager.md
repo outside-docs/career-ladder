@@ -9,12 +9,14 @@ Guides a team of ICs within one technical domain to deliver business impact with
 - Empowers and unblocks their team to deliver product goals by establishing efficient execution and operational processes, and holding their team accountable while cultivating a healthy team environment
 - Provides subject matter guidance to their team as needed, and helps ensure best practices are documented and utilized across the team
 - Manages conflicts to ensure a positive and collaborative atmosphere within their team
+- Ensures the team adopts AI tools effectively, removing blockers to AI-assisted workflows and holding the team accountable for leveraging AI to increase delivery velocity
 
 ## Talent Development
 
 - Fosters career growth by seeking challenging, impactful work for all members of their team based on skills and interests
 - Provides real-time feedback and coaching to their team to drive high performance and career growth
 - Sets clear expectations and addresses performance issues with support from their manager
+- Evaluates team members on their effective use of AI tools as part of performance expectations
 
 ## Hiring and onboarding
 

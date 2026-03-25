@@ -14,11 +14,12 @@ An Engineer I owns work within the scope of their team with specific guidance fr
 	
 ## Technical Contributions
 - Writes readable code while learning and following best practices of the team
-- Maintains or improves test coverage 
+- Uses AI coding tools to accelerate delivery on well-scoped tasks while critically reviewing all generated output
+- Maintains comprehensive test coverage for assigned work, leveraging AI to generate effective unit tests
 - Writes code reviews, provides feedback and asks questions when applicable
 - Owns documentation for assigned features or components with guidance, ensuring clarity for reviewers and teammates
+- Ships independently on well-defined tasks with steady, consistent progress
 - Completes work by the agreed upon time and provides progress updates to the team as needed
-- Makes steady and consistent progress on well defined tasks
 	
 ## Debugging & Monitoring
 - Debugs straightforward issues in their primary system

@@ -8,11 +8,13 @@ Guides a team of ICs within multiple technical domains to deliver business impac
 
 - Evaluates new and existing development to ensure alignment with business goals and best practices
 - Clarifies direction to keep their teams on track, and creates alignment to adjust course when needed without stifling dissent
+- Champions AI-assisted workflows across teams, measuring and improving adoption to drive consistent delivery gains
 
 ## Talent Development
 
 - Works to ensure that even those not reporting directly to them are well leveraged across the department, through cross-team reach, improving processes, or by finding opportunities for those who are under leveraged
 - Holds their team accountable for performance expectations and takes different approaches to motivating high performers and turning around low performers
+- Coaches managers on integrating AI proficiency into their teams' growth and performance expectations
 
 ## Hiring and onboarding
 
