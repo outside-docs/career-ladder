@@ -22,14 +22,11 @@ A Senior Engineer increasingly optimizes beyond just their team by driving cross
 ## Technical Contributions
 
 - Develops coding best practices for the team and utilizes automation where possible to enforce best practices
-- Establishes AI-assisted workflows that measurably increase team velocity and code quality
-- Uses AI to accelerate architectural exploration, prototyping, and documentation
-- Drives testing strategy and automation, ensuring comprehensive unit and end-to-end coverage across owned systems
-- Writes code review feedback that is timely, sought after and respected, and often the source of others' learning
+- Manages, contributes, and maintains unit tests & end-to-end tests
+- Writes code review feedback that is timely, sought after and respected, and often the source of others’ learning
 - Subject matter expert of 1 or more codebases
 - Owns documentation for complex systems, establishes and promotes team-wide documentation standards, and ensures technical decisions are thoroughly documented
-- Delegates tasks and pair-programs for the purpose of knowledge sharing with other engineers
-- Consistently delivers ahead of estimates by leveraging AI and automation to eliminate repetitive work
+- Delegates tasks and pair programs for the purpose of knowledge sharing with other engineers
 
 ## Debugging & Monitoring
 

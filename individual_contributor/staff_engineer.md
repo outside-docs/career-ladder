@@ -18,17 +18,14 @@ A Staff Engineer influences the roadmaps of other teams to achieve business impa
 ## Technical Contributions
 
 - Leads solution discovery and execution across multiple project domains in coordination with business stakeholders
-- Drives AI tool adoption strategy across multiple teams, designing workflows that combine AI capabilities with human judgment for optimal outcomes
-- Researches, proposes and implements new technology, tools and/or processes that improve productivity, code quality, and/or business opportunities
-- Defines and enforces testing standards across teams, ensuring quality gates and automated coverage prevent regressions at scale
+- Researches, proposes and implements new technology, tools and/or processes that improve productivity, code quality, and/or business opportunities.
 - Creates sweeping improvements in stability, performance, and scalability across major business-critical systems
 - Designs and leads major architectural changes
 - Identifies and proactively addresses tech debt before it requires significant investment to resolve
-- Measures and improves AI-driven productivity gains across the department
 
 ## Debugging & Monitoring
 
-- Defines monitoring and observability standards across multiple systems and teams
+-
 
 ## Example activity breakdown
 

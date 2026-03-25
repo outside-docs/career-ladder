@@ -22,12 +22,10 @@ An Engineer 3 owns work primarily with their direct team and cross-functional pa
 ## Technical Contributions
 
 - Writes readable and optimized code. Uses best practices of the language, when team best practices are ambiguous
-- Uses AI tools strategically to tackle moderate to high complexity problems faster, identifying which tasks benefit most from AI assistance vs. manual approaches
-- Contributes comprehensive unit tests and end-to-end tests, using AI to maximize coverage and catch edge cases
+- Contributes to unit tests and E2E tests
 - Writes code reviews that are informative, maintain best practices, timely, and thorough
 - Owns documentation for complex systems within their domain to support effective collaboration and maintenance
 - Makes consistent progress on medium-to-large solutions and leverages best practices
-- Helps teammates adopt AI tools effectively to improve team-wide velocity
 - Subject matter expert of multiple areas of the code base or tools
 
 ## Debugging & Monitoring

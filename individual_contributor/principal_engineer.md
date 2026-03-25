@@ -17,15 +17,12 @@ A Principal Engineer typically influences the technical strategy and direction o
 ## Technical Contributions
 
 - Invents and coordinates multi-year, multi-team goals that impact the entire organization, by setting short to medium term strategic direction
-- Shapes the organization's AI tooling strategy and investment, identifying transformative AI capabilities that create new business opportunities
-- Establishes governance frameworks for responsible and effective AI usage in engineering
 - Has a deep understanding of the business priorities and helps navigate decisions for optimal balance of immediate customer impact and long term investment
 - Intimately understands the market and trends, related to our technology, industry and competition
-- Sets organization-wide quality and testing standards that ensure reliability at scale
 
 ## Debugging & Monitoring
 
-- Defines organizational monitoring philosophy and ensures observability is embedded in engineering culture
+-
 
 ## Example activity breakdown
 
