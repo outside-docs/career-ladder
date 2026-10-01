@@ -7,7 +7,7 @@ A QA Engineer 1 ensures quality through the development lifecycle by writing and
 ## Collaboration and Communication
 
 - Communicates effectively with immediate team
-- Serves as communication bridge between CS team and Dev team during issue resolution
+- Serves as a communication bridge between the CS and Dev teams during issue resolution
 
 ## Planning
 
