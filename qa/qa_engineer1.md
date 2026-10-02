@@ -2,7 +2,7 @@
 
 ## Scope
 
-A QA Engineer 1 ensures quality through the development lifecycle by writing and executing test cases with guidance from their manager
+A QA Engineer 1 ensures quality through the development lifecycle by writing and executing test cases with guidance from their manager and team leads
 
 ## Collaboration and Communication
 
@@ -22,6 +22,6 @@ A QA Engineer 1 ensures quality through the development lifecycle by writing and
 
 ## Experience
 
-- Deep product knowledge
+- Deep knowledge of a product
 - Strong written and verbal communication skills
-- Attention to detail
+- Keen attention to detail

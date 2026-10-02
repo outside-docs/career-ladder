@@ -8,6 +8,7 @@ A QA Engineer 2 ensures quality through the development lifecycle by writing and
 
 - Advocates for quality throughout the development lifecycle
 - Communicates effectively with immediate and dependent teams and stakeholders
+- Leads communication between CS team and Dev team for customer facing issues
 
 ## Planning
 
@@ -19,9 +20,10 @@ A QA Engineer 2 ensures quality through the development lifecycle by writing and
 
 - Performs exploratory and regression testing on new features
 - Contributes automated test suites to increase automated coverage to replace manual testing
+- Uses AI tools to assist with test case writing and execution
 
 ## Experience
 
-- Expert-level knowledge of the product
+- Expert-level knowledge of a product
 - Authored clear and concise technical documentation
-- Programming skills and experience with version control
+- System design knowledge and experience with version control

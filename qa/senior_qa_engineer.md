@@ -8,7 +8,7 @@ A Senior QA Engineer designs, builds and maintains test automation frameworks in
 
 - Creates a culture of quality throughout the development lifecycle
 - Mentors others on testing
-- Communicates effectively with immediate and dependent teams and stakeholders
+- Communicates business impact of issues to non-technical stakeholders
 
 ## Planning
 
