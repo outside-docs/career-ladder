@@ -14,7 +14,7 @@ Guides a team of ICs within multiple technical domains to deliver business impac
 - Works to ensure that even those not reporting directly to them are well leveraged across the department, through cross-team reach, improving processes, or by finding opportunities for those who are under leveraged
 - Holds their team accountable for performance expectations and takes different approaches to motivating high performers and turning around low performers
 
-## Hiring and onboarding
+## Hiring and Onboarding
 
 - Participates in interviews to help identify the best candidates for the team within their department
 - Ensures that teams within their domain are staffed and structured properly across domains to be set up for success
@@ -30,5 +30,5 @@ Guides a team of ICs within multiple technical domains to deliver business impac
 ## Experience
 
 - Led, mentored or facilitated parallel teams
-- Management of senior technical roles 
+- Management of senior technical roles
 - Strategy development with cross-functional partners such as product and UX

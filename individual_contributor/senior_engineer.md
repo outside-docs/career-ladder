@@ -14,8 +14,8 @@ A Senior Engineer increasingly optimizes beyond just their team by driving cross
 
 - Authors technical solution planning artifacts (ie. RFCs, Design Diagrams)
 - Provides reliable estimates considering tech debt, quality, and project priorities
-- Translates product priorities into technical priorities and clearly communicate those to the team
-- Design solutions that require architectural decisions, cross-team coordination, or deep domain knowledge
+- Translates product priorities into technical priorities and clearly communicates those to the team
+- Designs solutions that require architectural decisions, cross-team coordination, or deep domain knowledge
 - Assists with technical discovery during planning to reduce ambiguity
 - Influences product roadmap by bringing technical insight and aligning engineering priorities with business goals
 
@@ -26,7 +26,7 @@ A Senior Engineer increasingly optimizes beyond just their team by driving cross
 - Writes code review feedback that is timely, sought after and respected, and often the source of others’ learning
 - Subject matter expert of 1 or more codebases
 - Owns documentation for complex systems, establishes and promotes team-wide documentation standards, and ensures technical decisions are thoroughly documented
-- Begins to delegate tasks, or pair programs on tasks for the purpose of knowledge sharing with other engineers
+- Delegates tasks and pair programs for the purpose of knowledge sharing with other engineers
 
 ## Debugging & Monitoring
 

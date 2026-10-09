@@ -16,7 +16,7 @@ Guides a team of ICs within one technical domain to deliver business impact with
 - Provides real-time feedback and coaching to their team to drive high performance and career growth
 - Sets clear expectations and addresses performance issues with support from their manager
 
-## Hiring and onboarding
+## Hiring and Onboarding
 
 - Participates in interviews to help identify the best candidates for the team
 - Ensures that teams within their domain are staffed and structured properly to be set up for success, with support from their manager
